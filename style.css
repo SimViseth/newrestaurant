@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+:root{
+    --green: orange;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --border: .2rem solid var(--green);
+}
+
+.content {
+    max-width: 600px;
+    margin-top: 10%;
+    margin-left: 8%;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 1500;
+}
+
+.content span {
+    color: orange;
+    font-size: 65px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+    font-weight: bold;
+    color: black;
+    padding: 8px 18px;
+}
+
+#active {
+    background: blue;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#active:hover {
+    background: rgb(38, 38, 165);
+}
+
+.navbar-nav li.nav-item a:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.bg-secondary{
+    background: orange !important;
+}
+
+.border{
+    border: 2px solid orange!important;
+}
+
+.icon {
+    font-size: 2rem;
+    color: orange;
+    padding: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .4rem;
+    padding-left: 1rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn span {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color: #fff;
+    margin-left: .5rem;
+}
+
+.btn:hover{
+    background: var(--green);
+    color: #fff;
+}
+
+.btn span:hover span {
+ background: var(--green);
+ color: #fff;}
+
+.footer ul li a {
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.footer ul li i {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #6c777f;
+    padding-top: 15px;
+}
+
+.footer ul li i:hover{
+    color: orange;
+}
+
+.footer ul li a {
+    font-family:Arial, Helvetica, sans-serif, serif, sans-serif;
+    line-height: 1.6rem;
+}
+
+.footer ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .fa {
+    font-size: inherit;
+    font: normal normal 14px/1;
+    text-rendering: auto;
+}
+
+footer .footer-more-info ul li{
+    list-style-type: none;
+}
+
+footer .footer-more-info ul li a{
+    text-decoration: none;
+    color: #efefef;
+    font-size:1rem;
+    line-height: 1.8rem;
+}
+
+footer .footer-more-info ul li a:hover{
+    color: orange;    
+    margin-left:10px !important;
+    transition: all .5s;
+    transform: translateX(10px);
+}
+
+footer .footer-more-info ul li a:first-child:before {
+    content: " » ";
+}
+
+.copy-right{
+    text-align: center !important;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.h-custom {
+height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+#btnlogin {
+    background: rgb(21, 21, 254);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+}
+
+#btnlogin:hover {
+    background: rgb(14, 14, 155);
+}
+
+.buy-button {
+    background: orange;
+    border: none;
+    box-shadow: none;
+    padding: 5px 18px;
+}
+
+.buy-button:hover {
+    background: black;
+    color: orange;
+}
+
+.form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.displayed {
+    display: block !important;
+}
+
+#ok-button {
+    background: black;
+    box-shadow: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#cancel-button {
+    padding: 7px 15px;
+}
